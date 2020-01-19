@@ -1,0 +1,17 @@
+{
+    "name": "nodejsapps",
+    "version": "1.0.0",
+    "description": "Node.js application Development\r 1. Creating Node.js Server Apps\r    1. Use Standard Node.js Modules\r       1. https://www.nodejs.org \r    2. Load the module in the current server-side JS file\r       1. Using 'require()' object\r          1. E.g. var obj = require('module-name')\r             1. The require() will load and cache the moduel for the current application\r             2. The  'obj' will be an instance of the module and have access to all its methods and properties\r    3. Default Node.js modules\r       1. https://nodejs.org/dist/latest-v12.x/docs/api/\r       2. http, http2, fs, util, dns, ect.\r    4. External Node.js modules\r       1. Developoed by Node.js community and must be installed explicitely using \r          1. npm install command\r          2. E.g.    \r             1. npm install -g <module-name>, module will be installed gloably for current user scope\r             2. npm install --save <module-name>, module will be imnstalled for current application\r          3. We need 'package.json' file to define modules\r             1. the package.json will be created using\r                1. npm init -y   \r                   1. The command will be used to create package.json with defaults\r                2. npm init \r                   1. The command to provide command line wizard to create package.json\r             2. Development only modules\r                1. packages will be declared in 'devDependencies' section of package.json\r                   1. npm install --save-dev <module-name or package-name>\r             3. Runtime modules\r                1. packages will be declared inside the 'dependencies' section of package.json\r                   1. npm install --save <module-name or package-name>",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Mahesh",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1"
+    }
+}
