@@ -1,0 +1,81 @@
+ES 6
+New Generation aka modern JavaScript
+3 Languages
+	- ES 6 aka high-level-javascript aka modern javascript (Mozilla Foundation)
+	- TypeScript, by Microsoft
+		- https://www.typescriptlang.org
+	- DART
+
+install typescript
+npm install -g typescript
+- This will provide typescript 'transpiler'
+- transpiler
+  - Transform the TypeScript into JavaScript
+  - the 'tsc'
+    - tsc <File-Name>.ts
+      - Transpiled into <File-Name>.js
+
+
+- scope
+  - the Block-Scope declaration using 'let' keyword
+- datatypes
+  - Numeric Datatype
+    - number
+  - String Datatype
+    - string
+  - Object
+  - Boolean
+  - Date
+  - Union Datatype
+    - declaring a varible with more than one datatype
+  - any
+    - The late binding
+    - The type will be set based on the initial value
+  - void
+  - Array
+    - datatype declared using  []
+    - Array as a class
+      - Properties
+        - length
+      - Methods
+        - push()/pop()
+          - add and remove elements from array
+        - filter() --> return elements array from array based on condition / sort() / reverse()
+        - indexOf()
+          - detect if an element is available in array
+        - splice() --> remove element from array
+        - slice() --> deviding array inparts
+        - shift() and unshift()
+          - adjust elements in array
+        - foreach() / map()
+          - ietrate over array
+      - loops
+        - for..loop --> traditional loop in JavaScript
+        - for..in loop --> Simple syntax of for..loop
+        - for..of  loop --> new in ES 6 like foreach loop
+- template strings
+  - New syntax for string concatination
+    - Traditional JS
+      - str1 + str2 + str3
+    - Template String
+      - `${str1} ${str2} ${str3}` 
+- arrow operators
+- rest parameters
+- object oriented programming
+	- class --> class is a keyword
+		- constructor --> a keyword
+  		- class members are accessed inside class using 'this'
+		- access specifier
+  		- public --> defaule for all members (data/methods/properties)
+  		- private 
+  		- protected
+		- static
+  - methods
+    - The overloading is not supported
+    - inheritence
+      - implemented using 'extends' keyword
+      - The derived class ctor must access based class ctor using 'super()' call
+	- interface
+	- generics  
+- modules
+- promises	
